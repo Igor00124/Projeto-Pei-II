@@ -1,3 +1,17 @@
+.redes ul{
+    display: flex;
+}
+
+.redes ul li img
+{max-width: 55px;
+
+}
+.redes ul a {
+display: block;
+padding: 10px;
+
+}
+
 /* styles.css */
 body {
     font-family: Arial, sans-serif;
@@ -7,10 +21,36 @@ body {
 }
 
 header {
-    background-color: #6fb6f8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
     color: white;
     padding: 1em 0;
-    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #555;
 }
 
 main {
@@ -21,7 +61,7 @@ main {
 }
 
 h1, h2 {
-    color: #3b2e2e;
+    color: #333;
 }
 
 ul {
@@ -32,9 +72,9 @@ ul {
 footer {
     text-align: center;
     padding: 10px 0;
-    background-color: #6fb6f8;
+    background-color: #333;
     color: white;
-    position:  relative;
+    position: relative;
     bottom: 0;
     width: 100%;
 }
@@ -69,15 +109,6 @@ button:hover {
     background-color: #555;
 }
 
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    margin: 20px 0;
-}
-
-
-
 .social-icons {
     display: flex;
     gap: 10px;
@@ -93,3 +124,9 @@ img {
 .social-icons a:hover {
     color: #007bff;
 }
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
