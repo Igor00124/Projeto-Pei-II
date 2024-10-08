@@ -3,11 +3,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #0ae75f;
+    background-color: #f4f4f4;
 }
 
 header {
-    background-color: #cdd1cf;
+    background-color: #6fb6f8;
     color: white;
     padding: 1em 0;
     text-align: center;
@@ -21,7 +21,7 @@ main {
 }
 
 h1, h2 {
-    color: #333;
+    color: #3b2e2e;
 }
 
 ul {
@@ -32,9 +32,9 @@ ul {
 footer {
     text-align: center;
     padding: 10px 0;
-    background-color: #333;
+    background-color: #6fb6f8;
     color: white;
-    position: relative;
+    position:  relative;
     bottom: 0;
     width: 100%;
 }
@@ -56,10 +56,40 @@ input, textarea {
 }
 
 button {
-    padding: 10px;
+    padding: 10px 20px;
     background-color: #333;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #007bff;
 }
